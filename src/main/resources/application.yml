@@ -1,0 +1,15 @@
+server:
+  port: 9094 
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    password: IES_DEV 
+    username: IES_DEV
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true    
+logging:
+  file:
+    name: CO.log    
