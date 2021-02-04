@@ -27,5 +27,5 @@ public class CoTriggers {
 	private String trgStatus;
 	@Column(name = "UPDATE_DT")
 	private Date updateDt;
-	
+
 }

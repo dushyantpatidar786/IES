@@ -14,26 +14,26 @@ import lombok.Data;
 @Table(name = "ELIGIBILITY_DETAILS")
 @Data
 public class EligibilityDetails {
-			@Id
-			@GeneratedValue
-			@Column(name = "ED_TRACE_ID")
-			private Integer edTraceId;
-			@Column(name = "BENEFIT_AMT")
-			private String benefitAmt;
-			@Column(name = "CASE_NUM")
-			private Integer caseNum;
-			@Column(name = "CREATE_DT")
-			private Date createDt;
-			@Column(name = "DENIAL_REASON")
-			private String denialReason;
-			@Column(name = "PLAN_END_DT")
-			private String planEndDt;
-			@Column(name = "PLAN_NAME")
-			private String planName;
-			@Column(name = "PLAN_START_DT")
-			private Date planStartDt;
-			@Column(name = "PLAN_STATUS")
-			private String planStatus;
-			@Column(name = "UPDATE_DT")
-			private Date updateDate;
+	@Id
+	@GeneratedValue
+	@Column(name = "ED_TRACE_ID")
+	private Integer edTraceId;
+	@Column(name = "BENEFIT_AMT")
+	private String benefitAmt;
+	@Column(name = "CASE_NUM")
+	private Integer caseNum;
+	@Column(name = "CREATE_DT")
+	private Date createDt;
+	@Column(name = "DENIAL_REASON")
+	private String denialReason;
+	@Column(name = "PLAN_END_DT")
+	private String planEndDt;
+	@Column(name = "PLAN_NAME")
+	private String planName;
+	@Column(name = "PLAN_START_DT")
+	private String planStartDt;
+	@Column(name = "PLAN_STATUS")
+	private String planStatus;
+	@Column(name = "UPDATE_DT")
+	private Date updateDate;
 }

@@ -10,12 +10,10 @@ import com.co.utility.PdfGenerator;
 @Service
 public class CoServiceImpl implements CoService {
 
-
 	@Override
 	public ByteArrayInputStream generatePDF() throws IOException {
 		ByteArrayInputStream byteArrayInputStream = PdfGenerator.generatePDFReport();
 		return byteArrayInputStream;
 	}
-	
 
 }

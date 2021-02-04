@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.co.entity.BatchSummary;
 
-public interface BatchSummaryRepo extends JpaRepository<BatchSummary,Serializable> {
+public interface BatchSummaryRepo extends JpaRepository<BatchSummary, Serializable> {
 
 }

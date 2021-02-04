@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.co.entity.BatchRunDtls;
 
 public interface BatchRunDtlsRepo extends JpaRepository<BatchRunDtls, Serializable> {
-
+	BatchRunDtls findByBatchRunSeq(Integer batchRunSeq);
 }
